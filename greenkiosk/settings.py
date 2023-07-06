@@ -42,6 +42,11 @@ INSTALLED_APPS = [
     "customer",
     "order",
     "payment",
+    "cart",
+    "delivery",
+    "Registration",
+    "customerservice",
+
 ]
 
 

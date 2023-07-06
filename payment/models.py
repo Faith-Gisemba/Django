@@ -1,5 +1,7 @@
 from django.db import models
 # Create your models here.
+class Meta:
+        verbose_name_plural = "payment"
 class Payment(models.Model):
     PAYMENT_METHODS = (
         ('NB', 'Lipa na Mpesa'),
